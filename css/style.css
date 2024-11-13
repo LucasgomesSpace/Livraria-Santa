@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alinha {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.imglogo {
+    justify-content: start;
+}
+
+.imglogo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 10px 0.7rem rgb(0, 0, 0));
+}
+
+nav {
+    background-image: url(../img/CAPA04-e1694551130217-1024x295.png);
+    height: 100px;
+    background-size: contain;
+    box-shadow: -5px 39px 51px -17px rgba(0, 0, 0, 0.61);
+
+    z-index: 999;
+
+}
+
+.primeira {
+    background-image: url(../img/fundo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+footer {
+    background-position: right top;
+    background-color: black;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+footer img {
+    padding: 5px;
+    height: auto;
+    width: 900px;
+}
