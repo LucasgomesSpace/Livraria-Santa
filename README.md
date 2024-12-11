@@ -18,4 +18,6 @@ Se você está interessado em contribuir para o projeto, fique à vontade para e
 Caso queira testar ou rodar o projeto localmente, siga os passos abaixo:
 
 
+## Atualização da Nota
+
 ### O Projeto foi finalizado com sucesso, caso queira testar entrar em contato. 
