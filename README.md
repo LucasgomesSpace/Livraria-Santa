@@ -20,4 +20,4 @@ Caso queira testar ou rodar o projeto localmente, siga os passos abaixo:
 
 ## Atualização da Nota
 
-### O Projeto foi finalizado com sucesso, caso queira testar entrar em contato. 
+ O Projeto foi finalizado com sucesso, caso queira testar entrar em contato. 
