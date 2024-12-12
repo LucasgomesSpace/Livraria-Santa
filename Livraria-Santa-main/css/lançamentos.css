@@ -1,0 +1,172 @@
+.alinha3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.lanch {
+    padding: 50px;
+}
+
+.lanc {
+
+    width: 87vw;
+    height: 1350px;
+    /* border-radius: 2rem; */
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    filter: drop-shadow(0 10px 0.7rem rgba(21, 61, 107, 0.81));
+}
+
+.fundolanc {
+    width: 87vw;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/fundolançamento.png);
+    /* border-radius: 2rem; */
+}
+
+.fundolanc h2 {
+    color: rgb(255, 240, 193);
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.livlanc {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Lançamento.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 594.017px 769.6px;
+}
+
+.fundolanc p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: rgb(255, 255, 255);
+}
+.textocabeça{
+    color: rgb(16, 24, 58);
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    filter: drop-shadow(0 10px 0.7rem rgb(251, 255, 16));
+    margin: 5px;
+}
+.cartão{
+    width: 70vw;
+    height: 300px;
+
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.614);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    padding-inline: 50px;
+    border: solid 1px black;
+    filter: drop-shadow(0 10px 0.7rem rgb(0, 0, 0));
+}
+.imgfinal{
+    
+    
+    width: 1100px;
+    height: 220px;
+    display: block;
+    background-image: url(../img/livrosfinal.png);
+    background-size: cover;
+    max-width: 100%;
+    background-position: 0px 0px;
+}
+.claro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/fundo\ carrossel.jpg);
+
+}
+
+.Quadradolivro {
+   display: flex;
+   
+    width: 87vw;
+    height: 550px;
+    background-color: rgb(232, 226, 221);
+    padding-left: 150px;
+}
+
+.livrolan {
+    width: 460px;
+    height: 510.909px;
+    border: 0px solid rgb(163, 186, 198);
+    border-radius: 0px;
+    opacity: 31;
+    background-image: url(../img/livrofrente.png);
+    background-size: 460px 550.909px;
+    background-repeat: no-repeat;
+    display: block;
+}
+.livroprinci{
+    
+    width: 500px;
+    height: 510.909px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.livroprinci p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem; 
+}
+.livroprinci h2{
+    color: rgb(16, 24, 58);
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.livroprinci b{
+    font-weight: bold;
+    font-style: inherit;
+}
+.livroprinci h5{
+    font-style: normal;
+    font-weight: inherit;
+    color: rgb(106, 144, 187);
+    font-family: "Poppins", sans-serif;
+}
+.textomed{
+
+    display: flex;
+}
+.imgmed{
+    gap: 2px;
+    height: 100%;
+    width: 26px;
+    margin: 10px;
+   
+   background-size: 22px 22px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    display: block;
+   background-image: url(../img/iconmed.svg);
+}

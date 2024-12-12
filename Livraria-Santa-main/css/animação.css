@@ -1,0 +1,120 @@
+.carossel {
+    height: 400px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/fundo\ carrossel.jpg);
+
+
+    background-color: rgba(119, 119, 119, 0.864);
+    position: relative;
+    overflow: hidden;
+    border: solid 0.2px black;
+    filter: drop-shadow(0 10px 0.7rem rgb(59, 59, 59));
+    z-index: 4;
+}
+
+.frases {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+   
+}
+
+.frases {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+
+
+}
+
+
+.frases .Fperson {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fperson {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+    border: solid 1px black;
+    filter: drop-shadow(0 10px 0.7rem rgb(0, 0, 0));
+}
+
+.Fperson main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 350px;
+}
+
+.txtazul {
+    color: rgb(66, 133, 112);
+    font-size: 3rem;
+    margin-left: 5px;
+}
+
+.fotoperfil {
+    width: 10vw;
+    height: 10vw;
+    background-size: 110% 100%;
+    border-radius: 100%;
+    border: solid 3px rgb(36, 54, 48);
+}
+
+.bc1 {
+    background-image: url(../img/Img\ padre\ pio.jpg);
+}
+.bc2{
+background-image: url(../img/Santatresinha.jpeg);
+}
+.bc3{
+    background-image: url(../img/São\ tomás\ de\ aquino.jpg);
+}
+.bc4{
+    background-image: url(../img/pajjp2.png);
+}
+
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(100vw);
+    }
+    10%{
+        transform: translateX(100vw);
+    }
+    25% {
+        transform: translateX(552px); /* Move a primeira div para fora da tela */
+    }
+    50% {
+        transform: translateX(-552px); /* Move para a segunda div */
+    }
+    75% {
+        transform: translateX(-100vw); /* Move para a terceira div */
+    }
+    80% {
+        transform: translateX(-100vw); /* Move para a terceira div */
+    }
+    
+    100% {
+        transform: translateX(100vw); /* Retorna ao início, criando o loop */
+    }
+}
+.frases {
+    display: flex;
+    transition: transform 1s ease;
+    animation: slideAnimation 38s infinite; /* A animação vai durar 20 segundos */
+}
